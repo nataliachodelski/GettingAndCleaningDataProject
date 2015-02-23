@@ -25,7 +25,8 @@ The sections that perform the following steps are well documented within the R s
 -------------------------------
 * If you have downloaded and unzipped the `UCI HAR Dataset`, then place the `run_analysis.R` file in the directory that contains the `UCI HAR Dataset` directory and run `run_analysis.R` from there.
 * If, on the other hand, you have not downloaded and unzipped the `UCI HAR Dataset`, then uncomment the 8 lines underneath the 'GET THE DATA' section of the `run_analysis.R` file.  Then run the `run_analysis.R`.  This will download the data and unzip it prior to beginning processing.
-
+* Check you working directory.  If it is not set to the directory where the run_analysis.R script and data set directory are located, then make sure to set the working directory to this location prior to running the script.
+* The output file will be written to the working directory.
 
 ###Output:
 -------------------------------
